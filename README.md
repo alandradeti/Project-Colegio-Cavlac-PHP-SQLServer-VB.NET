@@ -2,7 +2,7 @@
 
 É um projeto de uma escola que com integração entre eles
 
-Que realiza:
+Que realiza:<br>
 ------------------------------------------(Site)------------------------------------------
 - A consulta de dados, notas e faltas dos alunos .
 - A impressão do boletim e visualização das notificações que os alunos receberam dos professores.

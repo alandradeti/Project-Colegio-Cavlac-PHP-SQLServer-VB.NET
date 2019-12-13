@@ -31,16 +31,16 @@ if($_POST){
 		$Email->Host = 'smtp.gmail.com'; //Servidor de envio # verificar qual o host correto com a hospedagem as vezes fica como smtp.
 		$Email->Port = '587'; // Porta de envio
 		$Email->SMTPSecure = 'tls';
-		$Email->Username = 'alandradeti@gmail.com'; //e-mail que será autenticado
-		$Email->Password = '4561238v'; // senha do email
+		$Email->Username = 'EMAILQUEENVIA'; //e-mail que será autenticado
+		$Email->Password = 'SENHADOEMAILQUEENVIA'; // senha do email
 		// ativa o envio de e-mails em HTML, se false, desativa.
 		$Email->IsHTML(true); 
 		// email do remetente da mensagem
-		$Email->From = 'alandradeti@gmail.com';
+		$Email->From = 'EMAILQUEENVIA';
 		//$Email->SMTPDebug = 2; //mostra erros mais detalhados caso houver
 		// nome do remetente do email
 		$Email->FromName = ($nome);
-		$Email->AddAddress("ailtonlm.andrade@outlook.com"); //  para quem será enviada a mensagem
+		$Email->AddAddress("EMAILQUERECEBE"); //  para quem será enviada a mensagem
 		// informando no email, o assunto da mensagem
 		$Email->Subject = $assunto;
 		// Define o texto da mensagem (aceita HTML)

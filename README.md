@@ -12,9 +12,9 @@ Que realiza:<br>
 ------------------------------------------( Software )------------------------------------------
 - O cadastramento de alunos, professores, disciplinas, turmas e usuários.
 - A atribuição de notas, faltas e notificações para os alunos.
-- Relatórios:
-	*Cadastrais: Professores, alunos, turmas e disciplinas.
-	*Analíticos: Boletim, Observações e Desempenho.
+- Relatórios:<br>
+	-Cadastrais: Professores, alunos, turmas e disciplinas.<br>
+	-Analíticos: Boletim, Observações e Desempenho.
 - Envio de email pelo PHP-Mailer juntamento com Ajax.
 
 ------------------------------------------( Banco de Dados )------------------------------------------

@@ -1,0 +1,558 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A6478D4B-622A-4B81-A0F5-4DAC14914998}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Tcc.My.MyApplication</StartupObject>
+    <RootNamespace>Tcc</RootNamespace>
+    <AssemblyName>Tcc</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Tcc.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Tcc.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AlunoObs.Designer.vb">
+      <DependentUpon>AlunoObs.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AlunoObs.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BD_TCCDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BD_TCCDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BD_TCCDataSet.vb">
+      <DependentUpon>BD_TCCDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CadatrosFuncio.vb" />
+    <Compile Include="Cadastros.Designer.vb">
+      <DependentUpon>Cadastros.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Cadastros.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CadastrarTurma.Designer.vb">
+      <DependentUpon>CadastrarTurma.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CadastrarTurma.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="conn.vb" />
+    <Compile Include="CoresStrip.vb" />
+    <Compile Include="DiscpFuncio.vb" />
+    <Compile Include="frmConsAluno.Designer.vb">
+      <DependentUpon>frmConsAluno.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmConsAluno.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmConsProf.Designer.vb">
+      <DependentUpon>FrmConsProf.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmConsProf.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConsUsu.Designer.vb">
+      <DependentUpon>frmConsUsu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmConsUsu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDisciplina.Designer.vb">
+      <DependentUpon>FrmDisciplina.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDisciplina.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmNotas.Designer.vb">
+      <DependentUpon>FrmNotas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmNotas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmObs.Designer.vb">
+      <DependentUpon>frmObs.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmObs.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRelAluno.Designer.vb">
+      <DependentUpon>frmRelAluno.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmRelAluno.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRelBoletim.Designer.vb">
+      <DependentUpon>frmRelBoletim.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmRelBoletim.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRelDesemAluno.Designer.vb">
+      <DependentUpon>frmRelDesemAluno.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmRelDesemAluno.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRelDesemEscola.Designer.vb">
+      <DependentUpon>frmRelDesemEscola.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmRelDesemEscola.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRelDesemProf.Designer.vb">
+      <DependentUpon>frmRelDesemProf.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmRelDesemProf.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRelDiscp.Designer.vb">
+      <DependentUpon>frmRelDiscp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmRelDiscp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRelDesemTurma.Designer.vb">
+      <DependentUpon>frmRelDesemTurma.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmRelDesemTurma.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRelObs.Designer.vb">
+      <DependentUpon>frmRelObs.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmRelObs.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRelProf.Designer.vb">
+      <DependentUpon>frmRelProf.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmRelProf.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRelTurma.Designer.vb">
+      <DependentUpon>frmRelTurma.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmRelTurma.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTel.Designer.vb">
+      <DependentUpon>frmTel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home.Designer.vb">
+      <DependentUpon>Home.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.vb">
+      <DependentUpon>frmLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mdlBanco.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="NotasFuncio.vb" />
+    <Compile Include="ObsFuncio.vb" />
+    <Compile Include="TurmasFuncio.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AlunoObs.resx">
+      <DependentUpon>AlunoObs.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cadastros.resx">
+      <DependentUpon>Cadastros.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CadastrarTurma.resx">
+      <DependentUpon>CadastrarTurma.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConsAluno.resx">
+      <DependentUpon>frmConsAluno.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmConsProf.resx">
+      <DependentUpon>FrmConsProf.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConsUsu.resx">
+      <DependentUpon>frmConsUsu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDisciplina.resx">
+      <DependentUpon>FrmDisciplina.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNotas.resx">
+      <DependentUpon>FrmNotas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmObs.resx">
+      <DependentUpon>frmObs.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRelAluno.resx">
+      <DependentUpon>frmRelAluno.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRelBoletim.resx">
+      <DependentUpon>frmRelBoletim.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRelDesemAluno.resx">
+      <DependentUpon>frmRelDesemAluno.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRelDesemEscola.resx">
+      <DependentUpon>frmRelDesemEscola.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRelDesemProf.resx">
+      <DependentUpon>frmRelDesemProf.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRelDiscp.resx">
+      <DependentUpon>frmRelDiscp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRelDesemTurma.resx">
+      <DependentUpon>frmRelDesemTurma.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRelObs.resx">
+      <DependentUpon>frmRelObs.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRelProf.resx">
+      <DependentUpon>frmRelProf.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRelTurma.resx">
+      <DependentUpon>frmRelTurma.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTel.resx">
+      <DependentUpon>frmTel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportDesemProf.rdlc" />
+    <EmbeddedResource Include="ReportDesemAluno.rdlc" />
+    <EmbeddedResource Include="ReportDesemEscola.rdlc" />
+    <EmbeddedResource Include="ReportDesemTurma.rdlc" />
+    <EmbeddedResource Include="ReportDiscp.rdlc" />
+    <EmbeddedResource Include="ReportObs.rdlc" />
+    <EmbeddedResource Include="ReportAluno.rdlc" />
+    <EmbeddedResource Include="ReportBoletim.rdlc" />
+    <EmbeddedResource Include="ReportProf.rdlc" />
+    <EmbeddedResource Include="ReportTurma.rdlc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BD_TCCDataSet.xsc">
+      <DependentUpon>BD_TCCDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="BD_TCCDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BD_TCCDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BD_TCCDataSet.xss">
+      <DependentUpon>BD_TCCDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maquiagem.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eraser.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eraser %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eraser %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eraser %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\magnifying-glass.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eraser %284%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eraser %285%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cleaner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cleaner %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus-black-symbol.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new-user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\remove-user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\floppy-disk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add-user-to-social-network.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\deleteaa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Adicionar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cancelar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Deletar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gravar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\man.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\man %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\man %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blank.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\phone-call.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\phone-call %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\phone-call %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\phone-call %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\phone-call %284%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\phone-call %285%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wiping-swipe-for-floors.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wiping-swipe-for-floors %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wiping-swipe-for-floors1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ok-mark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close-cross-circular-interface-button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\remove.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\round-delete-button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\floor-brush.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\magnifier.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel-music %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file %284%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file %285%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file %287%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file %286%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus-sign-in-a-black-circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minus-sign-inside-a-black-circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\short-broom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\notepad %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\notepad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\notepad %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\notepad %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ok-mark %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\checked.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

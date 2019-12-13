@@ -1,0 +1,760 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Tcc
+</name>
+</assembly>
+<members>
+<member name="T:Tcc.BD_TCCDataSet.TB_ALUNODataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSet.TB_ALUNO_TURMADataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSet.TB_BOLETIMDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSet.TB_DISCPDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSet.TB_MASTERDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSet.TB_NOTIFICACOESDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSet.TB_PRESENCADataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSet.TB_PROFESSOR_DISCIPLINADataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSet.TB_PROFESSOR_DISCIPLINA_TURMADataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSet.TB_TELEFONEDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSet.TB_TELEFONE_ALUNODataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSet.TB_TELEFONE_USUARIODataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSet.TB_TURMADataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSet.TB_USUARIODataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSet.notificacaoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSet.viewTelefoneDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSet.viwalunoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSet.Pr_BoletimDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSet.Pr_TurmaTotalDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSet.Pr_ObsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSet.Pr_AlunoTurmaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSet.Pr_ProfDiscpDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSet.Pr_ProfessorDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSet.Pr_DesemAlunoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSet.Pr_MaiorNotaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSet.Pr_DesemProfDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSet.Pr_DesemEscolaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSet.TB_ALUNORow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSet.TB_ALUNO_TURMARow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSet.TB_BOLETIMRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSet.TB_DISCPRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSet.TB_MASTERRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSet.TB_NOTIFICACOESRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSet.TB_PRESENCARow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSet.TB_PROFESSOR_DISCIPLINARow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSet.TB_PROFESSOR_DISCIPLINA_TURMARow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSet.TB_TELEFONERow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSet.TB_TELEFONE_ALUNORow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSet.TB_TELEFONE_USUARIORow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSet.TB_TURMARow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSet.TB_USUARIORow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSet.notificacaoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSet.viewTelefoneRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSet.viwalunoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSet.Pr_BoletimRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSet.Pr_TurmaTotalRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSet.Pr_ObsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSet.Pr_AlunoTurmaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSet.Pr_ProfDiscpRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSet.Pr_ProfessorRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSet.Pr_DesemAlunoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSet.Pr_MaiorNotaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSet.Pr_DesemProfRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSet.Pr_DesemEscolaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSet.TB_ALUNORowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSet.TB_ALUNO_TURMARowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSet.TB_BOLETIMRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSet.TB_DISCPRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSet.TB_MASTERRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSet.TB_NOTIFICACOESRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSet.TB_PRESENCARowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSet.TB_PROFESSOR_DISCIPLINARowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSet.TB_PROFESSOR_DISCIPLINA_TURMARowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSet.TB_TELEFONERowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSet.TB_TELEFONE_ALUNORowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSet.TB_TELEFONE_USUARIORowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSet.TB_TURMARowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSet.TB_USUARIORowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSet.notificacaoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSet.viewTelefoneRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSet.viwalunoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSet.Pr_BoletimRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSet.Pr_TurmaTotalRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSet.Pr_ObsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSet.Pr_AlunoTurmaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSet.Pr_ProfDiscpRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSet.Pr_ProfessorRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSet.Pr_DesemAlunoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSet.Pr_MaiorNotaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSet.Pr_DesemProfRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSet.Pr_DesemEscolaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSetTableAdapters.TB_ALUNOTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSetTableAdapters.TB_ALUNO_TURMATableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSetTableAdapters.TB_BOLETIMTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSetTableAdapters.TB_DISCPTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSetTableAdapters.TB_MASTERTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSetTableAdapters.TB_NOTIFICACOESTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSetTableAdapters.TB_PRESENCATableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSetTableAdapters.TB_PROFESSOR_DISCIPLINATableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSetTableAdapters.TB_PROFESSOR_DISCIPLINA_TURMATableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSetTableAdapters.TB_TELEFONETableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSetTableAdapters.TB_TELEFONE_ALUNOTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSetTableAdapters.TB_TELEFONE_USUARIOTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSetTableAdapters.TB_TURMATableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSetTableAdapters.TB_USUARIOTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSetTableAdapters.notificacaoTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSetTableAdapters.viewTelefoneTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSetTableAdapters.viwalunoTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSetTableAdapters.Pr_BoletimTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSetTableAdapters.Pr_TurmaTotalTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSetTableAdapters.Pr_ObsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSetTableAdapters.Pr_AlunoTurmaTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSetTableAdapters.Pr_ProfDiscpTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSetTableAdapters.Pr_ProfessorTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSetTableAdapters.Pr_DesemAlunoTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSetTableAdapters.Pr_MaiorNotaTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSetTableAdapters.Pr_DesemProfTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSetTableAdapters.Pr_DesemEscolaTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSetTableAdapters.QueriesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Tcc.BD_TCCDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Tcc.BD_TCCDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Tcc.BD_TCCDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Tcc.BD_TCCDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Tcc.BD_TCCDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Tcc.BD_TCCDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Tcc.BD_TCCDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Tcc.BD_TCCDataSetTableAdapters.TableAdapterManager.UpdateAll(Tcc.BD_TCCDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Tcc.BD_TCCDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:Tcc.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Tcc.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:Tcc.My.Resources.Resources.add">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Tcc.My.Resources.Resources.add_user_to_social_network">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Tcc.My.Resources.Resources.Adicionar">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Tcc.My.Resources.Resources.asd">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Tcc.My.Resources.Resources.blank">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Tcc.My.Resources.Resources.boy">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Tcc.My.Resources.Resources.cancel_music__1_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Tcc.My.Resources.Resources.Cancelar">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Tcc.My.Resources.Resources.checked">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Tcc.My.Resources.Resources.cleaner">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Tcc.My.Resources.Resources.cleaner__1_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Tcc.My.Resources.Resources.close_cross_circular_interface_button">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Tcc.My.Resources.Resources.close11">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Tcc.My.Resources.Resources.close2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Tcc.My.Resources.Resources.Deletar">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Tcc.My.Resources.Resources.deleteaa">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Tcc.My.Resources.Resources.eraser">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Tcc.My.Resources.Resources.eraser__1_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Tcc.My.Resources.Resources.eraser__2_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Tcc.My.Resources.Resources.eraser__3_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Tcc.My.Resources.Resources.eraser__4_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Tcc.My.Resources.Resources.eraser__5_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Tcc.My.Resources.Resources.file__1_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Tcc.My.Resources.Resources.file__2_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Tcc.My.Resources.Resources.file__3_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Tcc.My.Resources.Resources.file__4_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Tcc.My.Resources.Resources.file__5_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Tcc.My.Resources.Resources.file__6_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Tcc.My.Resources.Resources.file__7_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Tcc.My.Resources.Resources.floor_brush">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Tcc.My.Resources.Resources.floppy_disk">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Tcc.My.Resources.Resources.Gravar">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Tcc.My.Resources.Resources.image">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Tcc.My.Resources.Resources.image__1_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Tcc.My.Resources.Resources.image__2_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Tcc.My.Resources.Resources.magnifier">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Tcc.My.Resources.Resources.magnifying_glass">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Tcc.My.Resources.Resources.man">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Tcc.My.Resources.Resources.man__1_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Tcc.My.Resources.Resources.man__2_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Tcc.My.Resources.Resources.maquiagem">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Tcc.My.Resources.Resources.minus_sign_inside_a_black_circle">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Tcc.My.Resources.Resources.new_user">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Tcc.My.Resources.Resources.notepad">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Tcc.My.Resources.Resources.notepad__1_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Tcc.My.Resources.Resources.notepad__2_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Tcc.My.Resources.Resources.notepad__3_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Tcc.My.Resources.Resources.ok_mark">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Tcc.My.Resources.Resources.ok_mark__2_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Tcc.My.Resources.Resources.phone_call">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Tcc.My.Resources.Resources.phone_call__1_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Tcc.My.Resources.Resources.phone_call__2_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Tcc.My.Resources.Resources.phone_call__3_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Tcc.My.Resources.Resources.phone_call__4_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Tcc.My.Resources.Resources.phone_call__5_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Tcc.My.Resources.Resources.plus_black_symbol">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Tcc.My.Resources.Resources.plus_sign_in_a_black_circle">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Tcc.My.Resources.Resources.remove">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Tcc.My.Resources.Resources.remove_user">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Tcc.My.Resources.Resources.round_delete_button">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Tcc.My.Resources.Resources.save">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Tcc.My.Resources.Resources.search">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Tcc.My.Resources.Resources.short_broom">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Tcc.My.Resources.Resources.wiping_swipe_for_floors">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Tcc.My.Resources.Resources.wiping_swipe_for_floors__1_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Tcc.My.Resources.Resources.wiping_swipe_for_floors1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:Tcc.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

@@ -15,7 +15,6 @@ Que realiza:<br>
 - Relatórios:<br>
 	-Cadastrais: Professores, alunos, turmas e disciplinas.<br>
 	-Analíticos: Boletim, Observações e Desempenho.
-- Envio de email pelo PHP-Mailer juntamento com Ajax.
 
 ---------------------------------------------( Banco de Dados )-------------------------------------------------
 - Armazena os dados que são adicionados no software que podem ser consultados pelo site

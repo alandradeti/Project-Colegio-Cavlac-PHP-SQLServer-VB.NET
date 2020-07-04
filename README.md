@@ -1,4 +1,4 @@
-# Colégio Cavlac (Site - PHP/ Software - Visual Basic .NET / Banco de dados - SQL Server)
+# Colégio Cavlac (Site - PHP/ Software - VB.NET / Banco de dados - SQL Server)
 
 É um projeto de uma escola que com integração entre eles
 
